@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<title>HereBeDragons</title>
+		
+		
+		<link href="/css/stylesheet.css" rel="stylesheet" type="text/css">
+		<!--<script rel="text/javascript" src="script.js"/>-->
+		
+	</head>
+	<body>
+	<div class="title">HereBeDragons - Enter a new blog post!</div>
+		<br>
+		<form method = "POST">
+			<label>
+				<div class="entry" >Title</div><br>				
+				<input type="text" name="subject" value={{subject}}>
+			</label>
+			<br><br>
+			<label>
+				<div class="entry" >Content</div><br>
+				<textarea class="content" name ="content" value = "content" style="font-size:14px; width:600px; height:400px;">{{content}}</textarea>
+			</label>
+			<div class="error">{{error}}</div>
+			<input type="submit">
+		</form>		
+		<hr style="width:800px;  margin:20px; padding:0px;">
+		
+		
+	</body>
+
+</html> 
+
+<!--
+<html>
+
+  <h2>new post</h2>
+</body>
+    <form method="post">
+      <label>
+        <div>subject</div>
+        <input type="text" name="subject" value="{{subject}}">
+      </label>
+
+      <label>
+        <div>blog</div>
+        <textarea name="content">{{content}}</textarea>
+      </label>
+
+      <div class="error">{{error}}</div>
+
+      <input type="submit">
+    </form>
+
+</body>
+</html>-->

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Page Title</title>
+    <link href="/css/stylesheet.css" rel="stylesheet" type="text/css">
+</head>
+    <div id="wrapper">
+        <body>
+        <form method="post">
+            
+            <label>
+                <div>Username</div>
+                <input type="text" name="username" value="{{username}}"> </input>
+            </label>
+            <div class="error">{{username_error}}</div>
+            
+            <label>
+                <div>Password</div>
+                <input type="password" name="password" value = "{{password}}">
+            </label>
+            <div class="error">{{password_error}}</div>
+            <input type = "submit">
+        </form>
+        
+        
+        </body>
+    </div>
+</html>

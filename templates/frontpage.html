@@ -1,0 +1,27 @@
+{% block content %}
+<html>
+	<head>
+		<title>HereBeDragons</title>
+		<link href="/css/stylesheet.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div class="title" >HereBeDragons Blog</div>
+		<br><hr>
+	{% for entry in entries %}
+		<br>
+		<div class=subject><em>{{entry.subject}}</em></div>
+		<br>
+		<div class="datetime">{{entry.created.strftime("%d, %b, %Y") | safe}}</div>
+		<br>
+		<div class=entry style="font-size:15px"><pre>{{entry.content | safe}}<br>{{entry.coordinates}}
+		<img src="{{entry.gmap_url}}">
+		</pre></div>
+		
+		<hr>
+	{%endfor%}
+	
+	<div>Queried {{counter}} seconds ago</div>
+	</body>
+
+</html>
+{% endblock %}

@@ -1,0 +1,36 @@
+
+.entry 
+{
+	border-radius: 0px;
+	text-align: left;
+	font-family: sans-serif;
+	color: #707070;
+	display: inline-block;	
+	position: static;
+}
+
+h2{
+	text-align: left;
+	color: #707070  ;
+	font-family: garamond;
+}
+
+.title{
+	width:200px;
+	font-family: garamond;
+	font-size: 20px;
+	}	
+
+.blog_post{
+	width: 600px;
+	height: 200px;
+	font-family: garamond;
+	font-size: 16px;
+
+}
+
+
+	margin: 20px 50px 10px 5px;
+	padding: 20px 40px 40px 40px;
+	border: 40px 50px 50px 40px;
+	position: static;

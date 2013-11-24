@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+   <link href="/css/stylesheet.css" rel="stylesheet" type="text/css">
+    <title>HereBeDragons: {{entries.subject}}</title>
+  
+</head>
+
+<body>
+   
+    <div class=title>{{entries.subject | safe}}</div>
+	<br>
+		<div class="datetime">{{entries.created.strftime("%d, %b, %Y") | safe}}</div>
+		<br>
+		<br>
+		<div class="entry"><pre>{{entries.content | safe}}</pre></div>
+		<div>Queried {{counter}} seconds ago</div>
+		<hr>
+   
+</body>
+</html>
