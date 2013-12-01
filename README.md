@@ -10,7 +10,7 @@ Very little done in terms of HTML
 most submissions are from the grading scripts.
 
 Also, hostip.info seems to not be functioning properly when delivering the 
-coordinates, hence many fault submissions to Google Maps which do not reflect the actual users location.
+coordinates, hence many faulty submissions to Google Maps which do not reflect the actual users' location.
 
 Google Datastore and memcache used for users and blog entries.
 
